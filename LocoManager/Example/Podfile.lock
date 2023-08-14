@@ -1,0 +1,16 @@
+PODS:
+  - LocoManager (0.1.0)
+
+DEPENDENCIES:
+  - LocoManager (from `../`)
+
+EXTERNAL SOURCES:
+  LocoManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LocoManager: cbbf5b536596f5a8a6a4782c444005301e78f975
+
+PODFILE CHECKSUM: 9e6c39c8ea5ae88d7112e81407f60cdc290e7078
+
+COCOAPODS: 1.12.0
