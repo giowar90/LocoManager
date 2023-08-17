@@ -14,8 +14,8 @@
 		4FC405A2F28A0AC56729C683077A6616 /* Pods-LocoManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DB40C19CE59F61D7B5D3B4F69ED68D0 /* Pods-LocoManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84646FD8BFE8B396F7AAB0749086801B /* LocoManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12A73199F65A7128C1B5D54FD66BC2 /* LocoManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D315F719D6E056BEEFA38DA58FC9931 /* Pods-LocoManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B76B5AC98BA162A0D162D1D04FCA9DF /* Pods-LocoManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B934C4572A8D79E80080A11E /* ManagerLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B934C4562A8D79E80080A11E /* ManagerLocation.swift */; };
 		D05654B2CC7197E3698D36703428A042 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E41211715E081427F44E42C4BCD53B28 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E544E921135E1BC0BD625E51CF9A1CCF /* ReplaceMe.swift */; };
 		F63338B759E8049138137B46CD6560FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +42,7 @@
 		0DB40C19CE59F61D7B5D3B4F69ED68D0 /* Pods-LocoManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocoManager_Example-umbrella.h"; sourceTree = "<group>"; };
 		1F5C675B999F43C0F5D6B2B8872CC5D1 /* Pods-LocoManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocoManager_Example-Info.plist"; sourceTree = "<group>"; };
 		2075697A683FF7D2C1C2825191340CAD /* Pods-LocoManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocoManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		22E8BE433171137F475D3C364D9F8A43 /* LocoManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LocoManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		22E8BE433171137F475D3C364D9F8A43 /* LocoManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LocoManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		37C9F8C086CD89C9639BF340E43EB5AA /* Pods-LocoManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocoManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		47C139C1E7687A7CC1610C4DFC03AB61 /* LocoManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LocoManager-Info.plist"; sourceTree = "<group>"; };
 		4A745841722DAA071F7730508C6FF1F1 /* Pods-LocoManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocoManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -53,20 +53,20 @@
 		615D445896EF424E5124124A09E47E95 /* Pods-LocoManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocoManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		69130F577BFDD1A0E12B650258BA37FF /* Pods-LocoManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocoManager_Tests-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7ACE59F0DEDB2ABC0BEE732C056AE974 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7ACE59F0DEDB2ABC0BEE732C056AE974 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		862B196246296C4E4A955073C7AF51E1 /* Pods-LocoManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocoManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		8AA88381B0BE7F0707E7D618468A6D5A /* LocoManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LocoManager.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA09CFC45894E9E4C9A8EC9A03140AE0 /* LocoManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LocoManager; path = LocoManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA09CFC45894E9E4C9A8EC9A03140AE0 /* LocoManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocoManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAEFC141609E784BAA0CA8E2E361E1D /* Pods-LocoManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocoManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B3BA603A56C4D394AD57C12472DCE44B /* LocoManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocoManager.debug.xcconfig; sourceTree = "<group>"; };
 		B5F7C4FEB90310978844B151DF3FFBDB /* Pods-LocoManager_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LocoManager_Example"; path = Pods_LocoManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B934C4562A8D79E80080A11E /* ManagerLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerLocation.swift; sourceTree = "<group>"; };
 		C5F92387187843653F32E91E5165A1F4 /* Pods-LocoManager_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LocoManager_Tests"; path = Pods_LocoManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E81AC9442F8EB264D52D6B579F44A1 /* Pods-LocoManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocoManager_Example.modulemap"; sourceTree = "<group>"; };
 		D1BFBF8A2962073A7E5E77595AF5E6C1 /* Pods-LocoManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocoManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D6BB17EAB55CF60FDB12FD57B05A7AA0 /* LocoManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocoManager.release.xcconfig; sourceTree = "<group>"; };
-		D8A5790AA5575EEADD1FCF2C2C48F1F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E544E921135E1BC0BD625E51CF9A1CCF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = LocoManager/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		D8A5790AA5575EEADD1FCF2C2C48F1F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EDD647C59D1CD031B264F36A7E57B372 /* LocoManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LocoManager-dummy.m"; sourceTree = "<group>"; };
 		F422804784EAACC38419415CAD804521 /* Pods-LocoManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocoManager_Example-dummy.m"; sourceTree = "<group>"; };
 		F96579BAE1245D5CF53AE8E74FF235B3 /* Pods-LocoManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocoManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,9 +120,9 @@
 		3170C0E76AFBB8C4BE3712A3BFDF31E8 /* LocoManager */ = {
 			isa = PBXGroup;
 			children = (
-				E544E921135E1BC0BD625E51CF9A1CCF /* ReplaceMe.swift */,
 				4CCE3BE5AEE3CF40DCBD1B0F3FB9CF4C /* Pod */,
 				47271AAF8E21D6059058E3105F6D51D5 /* Support Files */,
+				B934C4562A8D79E80080A11E /* ManagerLocation.swift */,
 			);
 			name = LocoManager;
 			path = ../..;
@@ -207,7 +207,7 @@
 		F312DEE5DB71E86496737042E3D16563 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA09CFC45894E9E4C9A8EC9A03140AE0 /* LocoManager */,
+				AA09CFC45894E9E4C9A8EC9A03140AE0 /* LocoManager.framework */,
 				B5F7C4FEB90310978844B151DF3FFBDB /* Pods-LocoManager_Example */,
 				C5F92387187843653F32E91E5165A1F4 /* Pods-LocoManager_Tests */,
 			);
@@ -268,7 +268,7 @@
 			);
 			name = LocoManager;
 			productName = LocoManager;
-			productReference = AA09CFC45894E9E4C9A8EC9A03140AE0 /* LocoManager */;
+			productReference = AA09CFC45894E9E4C9A8EC9A03140AE0 /* LocoManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		47F197F2D95603199750D5D836A7758E /* Pods-LocoManager_Example */ = {
@@ -317,6 +317,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					095ED3133F5939566032AF85D5E4F86B = {
+						LastSwiftMigration = 1420;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -375,8 +380,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B934C4572A8D79E80080A11E /* ManagerLocation.swift in Sources */,
 				2EAA4B80EA3E17A374E7CF78E3D0F317 /* LocoManager-dummy.m in Sources */,
-				E41211715E081427F44E42C4BCD53B28 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +482,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B3BA603A56C4D394AD57C12472DCE44B /* LocoManager.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -489,7 +495,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/LocoManager/LocoManager-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LocoManager/LocoManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/LocoManager/LocoManager.modulemap";
 				PRODUCT_MODULE_NAME = LocoManager;
@@ -497,6 +503,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -559,8 +566,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -570,6 +576,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D6BB17EAB55CF60FDB12FD57B05A7AA0 /* LocoManager.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -582,7 +589,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/LocoManager/LocoManager-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LocoManager/LocoManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/LocoManager/LocoManager.modulemap";
 				PRODUCT_MODULE_NAME = LocoManager;

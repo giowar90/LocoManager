@@ -13,6 +13,13 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		B934C45C2A8D8CBA0080A11E /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B934C45B2A8D8CB90080A11E /* DBManager.swift */; };
+		B934C45D2A8D8E800080A11E /* LocationsData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B934C4592A8D7B2B0080A11E /* LocationsData.xcdatamodeld */; };
+		B934C4612A8D8F730080A11E /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B934C45F2A8D8F730080A11E /* LocationsViewController.swift */; };
+		B934C4622A8D8F730080A11E /* LocationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B934C4602A8D8F730080A11E /* LocationsViewController.xib */; };
+		B934C4642A8D94440080A11E /* LocationCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B934C4632A8D94440080A11E /* LocationCoreData.swift */; };
+		B934C4682A8D95E20080A11E /* LocationsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B934C4662A8D95E20080A11E /* LocationsViewCell.swift */; };
+		B934C4692A8D95E20080A11E /* LocationsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B934C4672A8D95E20080A11E /* LocationsViewCell.xib */; };
 		C039B66A7C40E46EF2EE4366 /* Pods_LocoManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82012154399B3B6E3F0A1A27 /* Pods_LocoManager_Example.framework */; };
 		F28B0F857F3025920600683A /* Pods_LocoManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A405AC8D6D077B9BC0892A60 /* Pods_LocoManager_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -40,12 +47,19 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		82012154399B3B6E3F0A1A27 /* Pods_LocoManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocoManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		902B0417527C330A62888D5D /* Pods-LocoManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocoManager_Example.release.xcconfig"; path = "Target Support Files/Pods-LocoManager_Example/Pods-LocoManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		93D4528329382D52C20400CD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		93D4528329382D52C20400CD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		943CF7F28B6923A10BE089F3 /* Pods-LocoManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocoManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LocoManager_Tests/Pods-LocoManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A405AC8D6D077B9BC0892A60 /* Pods_LocoManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocoManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9BB4FB1D3000778B839053 /* Pods-LocoManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocoManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-LocoManager_Tests/Pods-LocoManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BDB2DDB799AA4A4F9D1D39FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E0AF6C28B768E0BC5D301C4A /* LocoManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LocoManager.podspec; path = ../LocoManager.podspec; sourceTree = "<group>"; };
+		B934C45A2A8D7B2B0080A11E /* LocationsData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LocationsData.xcdatamodel; sourceTree = "<group>"; };
+		B934C45B2A8D8CB90080A11E /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		B934C45F2A8D8F730080A11E /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
+		B934C4602A8D8F730080A11E /* LocationsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationsViewController.xib; sourceTree = "<group>"; };
+		B934C4632A8D94440080A11E /* LocationCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCoreData.swift; sourceTree = "<group>"; };
+		B934C4662A8D95E20080A11E /* LocationsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewCell.swift; sourceTree = "<group>"; };
+		B934C4672A8D95E20080A11E /* LocationsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationsViewCell.xib; sourceTree = "<group>"; };
+		BDB2DDB799AA4A4F9D1D39FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E0AF6C28B768E0BC5D301C4A /* LocoManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LocoManager.podspec; path = ../LocoManager.podspec; sourceTree = "<group>"; };
 		F53A1074F7B887A67D6B0CA7 /* Pods-LocoManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocoManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-LocoManager_Example/Pods-LocoManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,11 +116,13 @@
 		607FACD21AFB9204008FA782 /* Example for LocoManager */ = {
 			isa = PBXGroup;
 			children = (
+				B934C45B2A8D8CB90080A11E /* DBManager.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				B934C45E2A8D8F4D0080A11E /* Locations */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for LocoManager";
@@ -117,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD41AFB9204008FA782 /* Info.plist */,
+				B934C4592A8D7B2B0080A11E /* LocationsData.xcdatamodeld */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -148,6 +165,26 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		B934C45E2A8D8F4D0080A11E /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				B934C45F2A8D8F730080A11E /* LocationsViewController.swift */,
+				B934C4602A8D8F730080A11E /* LocationsViewController.xib */,
+				B934C4632A8D94440080A11E /* LocationCoreData.swift */,
+				B934C4652A8D95BC0080A11E /* LocationsCell */,
+			);
+			name = Locations;
+			sourceTree = "<group>";
+		};
+		B934C4652A8D95BC0080A11E /* LocationsCell */ = {
+			isa = PBXGroup;
+			children = (
+				B934C4662A8D95E20080A11E /* LocationsViewCell.swift */,
+				B934C4672A8D95E20080A11E /* LocationsViewCell.xib */,
+			);
+			name = LocationsCell;
+			sourceTree = "<group>";
+		};
 		FE4914116CC6DAD052F4CF03 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +193,6 @@
 				943CF7F28B6923A10BE089F3 /* Pods-LocoManager_Tests.debug.xcconfig */,
 				AD9BB4FB1D3000778B839053 /* Pods-LocoManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +249,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 2ET2N66PT7;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 2ET2N66PT7;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +265,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -246,9 +285,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B934C4692A8D95E20080A11E /* LocationsViewCell.xib in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				B934C4622A8D8F730080A11E /* LocationsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +372,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B934C4682A8D95E20080A11E /* LocationsViewCell.swift in Sources */,
+				B934C45D2A8D8E800080A11E /* LocationsData.xcdatamodeld in Sources */,
+				B934C4642A8D94440080A11E /* LocationCoreData.swift in Sources */,
+				B934C4612A8D8F730080A11E /* LocationsViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				B934C45C2A8D8CBA0080A11E /* DBManager.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,10 +524,12 @@
 			baseConfigurationReference = F53A1074F7B887A67D6B0CA7 /* Pods-LocoManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2ET2N66PT7;
 				INFOPLIST_FILE = LocoManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dex.tecnotrustlibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -493,10 +541,12 @@
 			baseConfigurationReference = 902B0417527C330A62888D5D /* Pods-LocoManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2ET2N66PT7;
 				INFOPLIST_FILE = LocoManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dex.tecnotrustlibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -507,6 +557,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 943CF7F28B6923A10BE089F3 /* Pods-LocoManager_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 2ET2N66PT7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -516,8 +567,9 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dex.tecnotrustlibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -529,13 +581,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AD9BB4FB1D3000778B839053 /* Pods-LocoManager_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 2ET2N66PT7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dex.tecnotrustlibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -574,6 +628,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B934C4592A8D7B2B0080A11E /* LocationsData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B934C45A2A8D7B2B0080A11E /* LocationsData.xcdatamodel */,
+			);
+			currentVersion = B934C45A2A8D7B2B0080A11E /* LocationsData.xcdatamodel */;
+			path = LocationsData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
 }
