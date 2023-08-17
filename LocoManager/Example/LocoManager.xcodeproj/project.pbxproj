@@ -59,7 +59,7 @@
 		B934C4662A8D95E20080A11E /* LocationsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewCell.swift; sourceTree = "<group>"; };
 		B934C4672A8D95E20080A11E /* LocationsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationsViewCell.xib; sourceTree = "<group>"; };
 		BDB2DDB799AA4A4F9D1D39FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E0AF6C28B768E0BC5D301C4A /* LocoManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LocoManager.podspec; path = ../LocoManager.podspec; sourceTree = "<group>"; };
+		E0AF6C28B768E0BC5D301C4A /* LocoManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LocoManager.podspec; path = ../LocoManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F53A1074F7B887A67D6B0CA7 /* Pods-LocoManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocoManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-LocoManager_Example/Pods-LocoManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

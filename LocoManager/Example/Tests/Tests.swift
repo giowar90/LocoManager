@@ -1,5 +1,5 @@
 import XCTest
-import LocoManager
+
 
 class Tests: XCTestCase {
     
